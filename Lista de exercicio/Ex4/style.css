@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .texto{
+        width: 50%;
+    }
+
+    & .link{
+        width: 50%;
+        padding-left: 600px;
+    }
+}
+
+main {
+    width: 100%;
+    display: flex;
+
+    .vermelho {
+        width: 33%;
+        background-color: red;
+        height: 1000px;
+    }
+
+    .verde {
+        background-color: lime;
+        width: 33%;
+        height: 1000px;
+    }
+
+    .azul {
+        background-color: blue;
+        width: 33%;
+        height: 1000px;
+    }
+}

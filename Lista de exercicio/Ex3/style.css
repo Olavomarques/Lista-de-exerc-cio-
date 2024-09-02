@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .texto{
+        width: 50%;
+    }
+
+    & .link{
+        width: 50%;
+        padding-left: 600px;
+    }
+}
+
+.vermelho, .verde, .azul {
+    height: 33.33%;
+    width: 100%;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: lime;
+}
+
+.azul {
+    background-color: blue;
+}
